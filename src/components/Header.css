@@ -1,0 +1,54 @@
+.header{
+    background-color:  orange;
+    background-color: rgb(8, 206, 189);
+    color:white;
+    padding-top: 10px;
+}
+
+.heading{
+    align-items: center;
+    justify-content: center;
+    padding-left: 40%;
+    padding-bottom: 20px;
+    color: rgb(14, 14, 80);
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 123, 0);
+    background-color: rgb(17, 153, 142);
+    padding: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.home{
+    background: url(datavis.jpg);
+    opacity: 0.8;
+    filter: blur(2px);
+    height: 650px;
+    width: 1550px;
+    padding-top: 30px;
+}
+
+.home-content{
+    background: black;
+    color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 110px;
+    border-radius: 20px;
+    display: grid;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 35%;
+    margin-top: 15%;
+}
+
+
+
