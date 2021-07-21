@@ -20,7 +20,7 @@ export default function Chart(data) {
 
   return (
     <div >
-      <div style={{width:'50%',height :"400px",display:"inline-flex",backgroundColor:"antiquewhite"}}>
+      <div style={{width:'70%',height :"400px",display:"inline-flex",backgroundColor:"antiquewhite"}}>
       <Bar 
       options={{
           maintainAspectRatio : false,

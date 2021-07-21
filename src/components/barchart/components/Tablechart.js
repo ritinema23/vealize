@@ -16,7 +16,7 @@ export default function Tablechart() {
     <div >
        <form name="myform">
        <TableContainer style={{display:'flex',justifycontent :'center' }}>
-      <Table style= {{width:'50%',justifycontent :'center'}} size='small'>
+      <Table style= {{width:'70%',justifycontent :'center'}} size='small'>
         <TableHead>
           <TableRow>
             <TableCell><TextField value={subData['sub']} onChange={(e)=>setSubrData({...subData,"sub": e.target.value})} label ="Employee Name" margin="normal" variant="outlined" color="secondary"/></TableCell>
